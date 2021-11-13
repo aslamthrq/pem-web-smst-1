@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="in">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh layout Dengan Elemen Semantik</title>
+    <style>
+        section{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        nav {
+            padding: 10px 10px 10px 0px;
+        }
+    </style>
+</head>
+<body style="background-color: cadetblue;">
+    <header style="background-color: rgb(130, 183, 185);">
+        <h1>Belajar Elemen Semantik di HTML</h1>
+    </header>
+
+    <section style="background-color: rgb(124, 178, 180);">
+        <nav>
+            <ul style="list-style-type: none;">
+                <li><a href="layout.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+
+        <article style="background-color: rgb(127, 190, 192);">
+            <h1>Elemen Semantik</h1>
+            <p>
+            Elemen semantik adalah elemen-elemen yang menyatakan makna atau tujuan dari elemen itu sendiri.
+            Misalnya tag footer , tag ini digunakan untuk membuat elemen footer atau bagian kaki dari web.
+            Jangan gunakan tag ini di bagian paling atas, karena maknanya sudah jelas untuk footer.
+            </p>
+        </article>
+    </section> 
+
+    <details>
+        <summary>Coba Liat</summary>
+        <p>Makasih sudah dilihat</p>
+    </details>
+
+    <footer style="background-color: rgb(124, 183, 185);">
+        <p>Copyright &copy; 2021 Aslam Thariq</p>
+        <p><a href="mailto:aslamthariq01@gmail.com.com">E-mail</a></p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan siaran radio auto play</title>
+</head>
+<body>
+    <h1>latihan siaran radio</h1>
+    <img src="foto/kaset_pita.gif" alt="Animasi Kaset Pita" style="float: left; width: 100px; margin-left: 50px;">
+        <audio controls style="margin-left: 60px;" loop autoplay>
+            <source src="audio/Tips_Ampas_Kopi.ogg" type="audio/ogg">
+            Browser kamu tidak mendukung element audio
+        </audio>
+
+    <audio hidden autoplay loop> <!-- tidak dapat bekerja karena ada perubahan policy tetapi bisa dijalankan di firefox dengan mengizinkan pemutaran audio otomatis -->
+        <source src="audio/background music.mp3" type="audio/mp3">
+        Browser kamu tidak mendukung element audio
+    </audio>
+</body>
+</html>
