@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="in">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="shortcut icon" href="foto_Kerangka_Web/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="foto_Kerangka_Web/favicon.ico" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #E2D0D0;
+        }
+        nav img {
+            width: 100px;
+            height: 100px;
+            padding: 0 20px;
+        }
+        nav ul {
+            list-style: none;
+            font-weight: bold;
+            float: right;
+            margin-right: 20px;
+        }
+        nav li {
+            display: inline-block;
+            margin: 0 8px;
+            line-height: 50px;
+        }
+        nav a {
+            font-size: 18px;
+            text-transform: uppercase;
+            padding: 7px 10px;
+        }
+        a:link {
+            text-decoration: none;
+        }
+        a:hover{
+            color: azure;
+            transition: .5s;
+
+        }
+        nav {
+            height: 90px;
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+            background-color: #E2D0D0;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+        section img {
+            width: 200px;
+            border-radius: 50%;
+        }
+        input[type="email"], input[type="submit"], textarea {
+            background-color: #C4C4C4;
+            border-style: none;
+            border-radius: 5px;  
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="halaman_utama.html"><img class="logo"" src="foto_Kerangka_Web/Logo.png" alt="Logo Personal Web Aslam Thariq"></a>
+        <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="fileKonten/CV_Aslam Thariq.pdf">Download CV</a></li>
+           <li><a href="kontak.html">Contact</a></li>
+           <li><a href="tentang.html">About me</a></li>
+        </ul>
+    </nav>
+
+    <div>
+        <h1>Kontak Saya </h1>
+        <form>
+            <label for="email">Email</label><br />
+            <input type="email" name="email" placeholder="alamat email"/><br />
+            <label for="message">Pesan</label><br />
+            <textarea name="message" placeholder="Tulis pesan anda..." rows="4" cols="80"></textarea><br />
+            <br />
+            <input type="submit" value="Kirim" />
+        </form>
+    </div>
+        <hr>
+    <footer style="text-align: center;">
+        <p>Copyright &copy; 2021 Aslam Thariq.</p>
+    </footer>
+</body>
+</html>
