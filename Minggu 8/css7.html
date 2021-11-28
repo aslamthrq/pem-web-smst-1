@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector atribut</title>
+    <style>
+        input[type="email"], input[type="submit"], textarea {
+            background-color: #C4C4C4;
+            border-style: none;
+            border-radius: 5px;  
+        }
+    </style>
+</head>
+<body>
+    <h1>Kontak Saya </h1>
+        <form>
+            <label for="email">Email</label><br />
+            <input type="email" name="email" placeholder="alamat email"/><br />
+            <label for="message">Pesan</label><br />
+            <textarea name="message" placeholder="Tulis pesan anda..." rows="4" cols="80"></textarea><br />
+            <br />
+            <input type="submit" value="Kirim" />
+        </form>
+</body>
+</html>
