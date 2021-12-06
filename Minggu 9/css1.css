@@ -1,0 +1,44 @@
+body {
+    background-color: aliceblue;
+    font-family: roboto;
+    text-align: center;
+}
+h1 {
+    color: blue;
+}
+.taruhTengah {
+    margin: 10px auto;
+    width: 1150px;
+}
+.kotak {
+    background: #bea5a5;
+    padding: 20px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    height: 200px;
+}
+.Ke-1 {
+    border-radius: 10px 10px 10px 10px;
+}
+.Ke-2 {
+    border-radius: 40px 20px 60px 90px;
+}
+.Ke-3 {
+    border-radius: 20px 10px 80px 10px;
+}
+.Ke-4 {
+    border-radius: 0px 50px 0px 50px;
+}
+.Ke-5 {
+    border-radius: 0px 0px 0px 0px;
+}
+.Ke-6 {
+    border-radius: 100%;
+}
+.Ke-7 {
+    border-radius: 40px 10px;
+}
+.Ke-8 {
+    border-radius: 10px 10px 50% 50%;
+}
